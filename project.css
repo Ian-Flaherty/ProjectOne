@@ -1,0 +1,28 @@
+header {
+  text-align: center;
+  color:bisque;
+  font-size: 60px;
+  
+}
+body {
+  border: 30cm;
+  background-color: rgb(56, 47, 119);
+  
+}
+input {
+  width: 300px;
+  height: 60px;
+  font-size: 150%;
+  text-align: center;
+  background-color: bisque;
+}
+button {
+  width: 100px;
+  height: 62px;
+  background-color: black;
+  font-size: 200%;
+  color: bisque;
+}
+p {
+  color: bisque;
+}
