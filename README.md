@@ -43,7 +43,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Aug 29-30| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
 |August 30| Project Approval | Incomplete
-|Aug 30-31| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Aug 30-31| Core Application Structure (HTML, CSS, etc.) | Complete
 |Aug 31-1| Pseudocode / actual code | Incomplete
 |Aug 1-2| Initial Clickable Model  | Incomplete
 |Aug 2-3| MVP | Incomplete
@@ -73,7 +73,7 @@ Use this section to include a brief code snippet of functionality that you are p
 function reverse(string) {
 	// here is the code to reverse a string of text
 }
-```
+,,,
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
