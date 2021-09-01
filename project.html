@@ -14,13 +14,20 @@
   
     <div class="input">
       <input type='text' id='food' name='food' placeholder="Input your food selection">
-      <button id="button" onclick="">Send</button>
+      <button id="button" onclick="handleSubmit()">Send</button>
     </div>
-    <div class="img-output">
-      <div class="img">img</div>
+    <div class="health">
+      <div class="healthLabel">
+        <label>health</label>
+        <ul id="health-items"></ul>
+      </div>
     </div>
   <div class="nutrFacts">
-    <div class="nutrition">facts</div>
+    <div class="nutrition">
+    <label>Facts</label>
+      <ul id="nutrition"></ul>
+
+    </div>
   </div>
   <div class="returnLog">
     <div class= "return">return</div>
