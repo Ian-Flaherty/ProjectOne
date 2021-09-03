@@ -19,7 +19,7 @@ This returns the nutritional analysis for the specified food text by extracting 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-https://lucid.app/lucidchart/0474b164-70b1-4b4a-bee3-e6b0df7e9397/view?page=0_0#### MVP/PostMVP
+https://lucid.app/lucidchart/08660000-aad4-4f95-836f-936731efc2d5/view?page=0_0# MVP/PostMVP
 #### MVP 
 
 
@@ -48,7 +48,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Aug 31-1| Pseudocode / actual code | complete
 |Sep 1-2| Initial Clickable Model  | complete
 |Sep 2-3| MVP | complete
-|Sep 3-4| Presentations | complete
+|Sep 3-4| Presentations | incomplete
 
 ## Priority Matrix
 
@@ -63,8 +63,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| HTML | H | 3hrs | 2hrs | 1.5 hrs | 2hrs |
+| css | H | 3hrs | 3hrs | 3hrs | 3hrs |
+| Working with API | H | 4hrs| 6hrs | 6hrs |
+| Total | H | 13hrs| 14hrs | 14.5hrs |
 
 ## Code Snippet
 
