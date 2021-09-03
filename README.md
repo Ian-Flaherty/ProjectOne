@@ -2,16 +2,17 @@
 
 ## Project Name
 
-The name of your project. = Calorie Counter
+Carb Counter
 
 ## Project Description
 
-Be able to go to a website and look up a food or meal you want to eat and click on it to get all nutrition facts. 
+Be able to go to a website and look up a food or meal you want to eat and submit it to recieve carbs and dietary information. 
 
 ## API and Data Sample
 
 https://developer.edamam.com/edamam-docs-nutrition-api
-food api with nutrition facts.
+
+This returns the nutritional analysis for the specified food text by extracting information from a short unstructured food text (usually an ingredient line and returns the following structured data for the text: quantity, measure and food,) and if available: diet, health and allergen labels for the text. With the built in food logging feature, this allows for change of context. For example, “rice” will normally be matched to raw rice while, with the food logging feature on, it will match to ready to eat ‘cooked rice.’
 
 ## Wireframes
 
@@ -20,7 +21,7 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 https://lucid.app/lucidchart/0474b164-70b1-4b4a-bee3-e6b0df7e9397/view?page=0_0#### MVP/PostMVP
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
+
 
 - Find and use external api 
 - Render data on page 
@@ -41,13 +42,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Aug 29-30| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|August 30| Project Approval | Incomplete
+|Aug 29-30| Prompt / Wireframes / Priority Matrix / Timeframes | complete
+|August 30| Project Approval | complete
 |Aug 30-31| Core Application Structure (HTML, CSS, etc.) | Complete
-|Aug 31-1| Pseudocode / actual code | Incomplete
-|Aug 1-2| Initial Clickable Model  | Incomplete
-|Aug 2-3| MVP | Incomplete
-|Aug 3-4| Presentations | Incomplete
+|Aug 31-1| Pseudocode / actual code | complete
+|Sep 1-2| Initial Clickable Model  | complete
+|Sep 2-3| MVP | complete
+|Sep 3-4| Presentations | complete
 
 ## Priority Matrix
 
@@ -67,13 +68,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+function processCarbs(response) {
+  let ul = document.getElementById('nutrition');
+  
+    let li = document.createElement('li');
+  ul.appendChild(li).innerHTML = `${response.data.totalNutrients['CHOCDF'].label} ${response.data.totalNutrients['CHOCDF'].quantity}`;
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
 }
-,,,
+
+proud of this code because it took a while to for me to figure out how to use an API.
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
